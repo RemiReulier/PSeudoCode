@@ -9,24 +9,13 @@
 			"include": "#strings"
 		},
         {
-            "name": "definition.untitled",
+            "name": "definition.psc",
             "match": ":"
         },
         {
-            "name": "function",
+            "name": "function.psc",
             "begin": "(",
             "end": ")"
-        },
-        {
-            "name": "string.quoted.double.untitled",
-            "begin": "\"", 
-            "end": "\"",
-            "patterns": [
-                {
-                    "name": "constant.character.escape.untitled",
-                    "match": "\\."
-                }
-			]
         }
 	],
 	"repository": {
