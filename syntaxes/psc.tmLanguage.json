@@ -7,13 +7,33 @@
 		},
 		{
 			"include": "#strings"
-		}
+		},
+        {
+            "name": "definition.untitled",
+            "match": ":"
+        },
+        {
+            "name": "function",
+            "begin": "(",
+            "end": ")"
+        },
+        {
+            "name": "string.quoted.double.untitled",
+            "begin": "\"", 
+            "end": "\"",
+            "patterns": [
+                {
+                    "name": "constant.character.escape.untitled",
+                    "match": "\\."
+                }
+			]
+        }
 	],
 	"repository": {
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.psc",
-				"match": "\\b(if|while|for|return)\\b"
+				"match": "\\b(si|faire|pour|nouveau)\\b"
 			}]
 		},
 		"strings": {
