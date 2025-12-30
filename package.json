@@ -1,0 +1,25 @@
+{
+  "name": "psc",
+  "displayName": "psc",
+  "description": "A language for pseudocode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.107.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "psc",
+      "aliases": ["psc", "psc"],
+      "extensions": [".psc"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "psc",
+      "scopeName": "source.psc",
+      "path": "./syntaxes/psc.tmLanguage.json"
+    }]
+  }
+}
