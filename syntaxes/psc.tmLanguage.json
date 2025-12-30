@@ -7,16 +7,7 @@
 		},
 		{
 			"include": "#strings"
-		},
-        {
-            "name": "definition.psc",
-            "match": ":"
-        },
-        {
-            "name": "function.psc",
-            "begin": "(",
-            "end": ")"
-        }
+		}
 	],
 	"repository": {
 		"keywords": {
