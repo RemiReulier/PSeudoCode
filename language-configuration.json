@@ -27,5 +27,11 @@
     ],
     "indentationRules": {
     "increaseIndentPattern": "^((?!\\/\\/).)*(\\{[^}\"'`]*|\\([^)\"'`]*|\\[[^\\]\"'`]*)$",
-    }
+    },
+    "onEnterRules": [
+        {
+            "beforeText": "^\\s*(?:si|faire|pour).*?:\\s*$",
+            "action": { "indent": "indent" }
+        }
+    ]
 }
