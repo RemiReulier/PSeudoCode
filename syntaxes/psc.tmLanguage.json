@@ -16,7 +16,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.psc",
-				"match": "\\b(si|faire|pour|nouveau)\\b"
+				"match": "\\b(si|répéter|pour|nouveau)\\b"
 			}]
 		},
 		"strings": {
@@ -29,6 +29,10 @@
 					"match": "\\\\."
 				}
 			]
+		},
+		"functions": {
+			"name": "constant.numeric.psc",
+			"match": "\\w+(?<!pour|si)(?=\\()"
 		}
 	},
 	"scopeName": "source.psc"
